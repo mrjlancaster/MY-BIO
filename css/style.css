@@ -1,0 +1,191 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+#showcase{
+    background-image: url("../img/biodesignblack.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: auto;
+    height: 100%;
+    border-bottom: rgb(52, 52, 199) 3px solid;
+}
+
+header h4{
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.70;
+    float: left;
+    position: relative;
+    bottom: 30px;
+}
+
+.info ul{
+    float: right;
+    list-style: none;
+    height:auto;
+    margin:auto;
+}  
+
+.info ul{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
+.info ul li{
+    display:inline-block;
+    margin:0px 20px;
+}
+
+.info ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:700;
+    color:#000000;
+}
+
+
+
+
+.bio-center{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 44%;
+    text-align: center;
+}
+
+
+
+.bio-btn a{
+    font-size: 15px;
+    font-weight: 600;
+    color:#f1f1f1;
+    text-decoration: none;
+    border:#000000 3px solid;
+    padding:10px 20px;
+    border-radius:20px;
+    background-color: #6495ED;
+    opacity: 0.90;
+}
+
+.bio-btn a:hover{
+    background-color: #6495ED;
+    color: black;
+    transition: 1s;
+}
+
+
+
+/* bio, main content **/
+
+
+
+.quote{
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+    height: 180px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    color: black;
+
+}
+
+.showcase-two{
+    background-image: url("../img/coffee.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    opacity: 0.50;
+    height: 300px;
+    margin: auto;
+    background-attachment: fixed;
+    border-top: rgb(230, 16, 16) 3px solid;
+    border-bottom: rgb(230, 16, 16) 3px solid;
+    border-radius: 2px;
+}
+
+.bio-title{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 25px 30px;
+    line-height: 10px;
+}
+
+.bio-title img{
+    border-radius: 50%;
+    width: 90px;
+}
+
+
+
+/* attributes for smoothing scrolling with hyperlink. Still need to learn
+EX:
+.bio-title h1 #bio{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+**/
+
+.main-content{
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 6%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 120px;
+}
+
+
+
+
+
+/* footer section **/
+
+.contact{
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height:80px;
+    line-height: 3px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact p{
+    font-family: system-ui;
+}
+
+
+/* media query **/
+
+@media (max-width:568){
+
+
+
+
+}
