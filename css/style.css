@@ -175,7 +175,19 @@ header h4{
 
 /* media query **/
 
-@media (max-width:568){
+@media (max-width:768px){
+    body, #showcase, .read-me, .quote, .showcase-two, .main-content, .bio-title{
+       float: none;
+       text-align: center;
+       width: 100%;
+   }
 
+    .contact{
+        margin-top: 250px;
+    }
+
+    .main-content{
+        margin-top: 300px;
+    }
 
 }
