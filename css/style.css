@@ -135,14 +135,6 @@ header h4{
 
 
 
-/* attributes for smoothing scrolling with hyperlink. Still need to learn
-EX:
-.bio-title h1 #bio{
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-}
-
-**/
 
 .main-content{
     margin: auto;
@@ -184,8 +176,6 @@ EX:
 /* media query **/
 
 @media (max-width:568){
-
-
 
 
 }
